@@ -1,0 +1,15 @@
+{
+    "name": "boilerplate-yii2-k4nuj8",
+    "description": "Boilerplate Yii 2 k4nuj8",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "license": "BSD-3-Clause",
+    "require": {
+        "kozhindev/yii-steroids": "^1.5.10",
+        "phpunit/phpunit": "5.7.19"
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}

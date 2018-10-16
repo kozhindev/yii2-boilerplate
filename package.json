@@ -1,0 +1,9 @@
+{
+  "name": "boilerplate-yii2-k4nuj8",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "yii-steroids": "^1.5.15"
+  },
+  "devDependencies": {}
+}
