@@ -24,9 +24,9 @@ Yii::$app->frontendState->register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode(Yii::$app->siteMap->getFullTitle()) ?></title>
     <?= Html::cssFile('@static/assets/bundle-style.css') ?>
+    <?php $this->head() ?>
     <?= Html::jsFile('@static/assets/bundle-common.js') ?>
     <?= Html::jsFile('@static/assets/bundle-index.js') ?>
-    <?php $this->head() ?>
     <?= $this->render('_sentry') ?>
 </head>
 <body>

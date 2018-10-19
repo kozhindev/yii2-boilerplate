@@ -24,9 +24,9 @@ Yii::$app->frontendState->register($this);
     <title><?= Html::encode(Yii::$app->siteMap->getFullTitle()) ?></title>
     <script defer src='https://use.fontawesome.com/releases/v5.0.6/js/all.js'></script>
     <?= Html::cssFile('@static/assets/bundle-style-admin.css') ?>
+    <?php $this->head() ?>
     <?= Html::jsFile('@static/assets/bundle-common.js') ?>
     <?= Html::jsFile('@static/assets/bundle-index.js') ?>
-    <?php $this->head() ?>
 </head>
 <body>
 <?php $this->beginBody() ?>
